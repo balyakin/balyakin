@@ -5,7 +5,6 @@ Developer. I build small tools, usually because I got annoyed by something.
 Most of what's here is Go, Rust, or TypeScript. A lot of CLIs. SQLite wherever I can avoid running a server.
 
 [![GitHub followers](https://img.shields.io/github/followers/balyakin?label=Follow&style=social)](https://github.com/balyakin)
-[![Website](https://img.shields.io/badge/website-skymoment.art-111111?style=flat&logo=googlechrome&logoColor=white)](https://skymoment.art)
 
 ---
 
