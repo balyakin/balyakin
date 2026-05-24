@@ -16,6 +16,8 @@ Most of what's here is Go, Rust, or TypeScript. A lot of CLIs. SQLite wherever I
 
 **[llmfail](https://github.com/balyakin/llmfail)** — Local proxy that adds failover between LLM providers. Anthropic returning 429s? Falls through to OpenAI or wherever. Mostly just a routing layer, smaller than you'd expect. Go.
 
+**[smartproxy](https://github.com/balyakin/smartproxy)** — Local LLM proxy for the setup that starts with one API key and somehow grows into retry scripts, budget checks, and a cost spreadsheet. OpenAI-compatible in; routing, failover, SQLite telemetry, optional caching, and a terminal dashboard around it. Go.
+
 **[codebone](https://github.com/balyakin/codebone)** — CLI and MCP server for giving agents compact code context. Extracts symbols, signatures, and structure with tree-sitter instead of dumping whole files. TypeScript.
 
 **[skill-eval-runner](https://github.com/balyakin/skill-eval-runner)** — Test runner for `SKILL.md` files. Spins up a fresh workspace, lets an agent work, then checks what actually happened: files, commands, JSON, exit codes, tokens, and CI reports. Built because "the chat looked right" is not a regression test. TypeScript.
