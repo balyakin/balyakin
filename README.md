@@ -22,6 +22,8 @@ Most of what's here is Go, Rust, or TypeScript. A lot of CLIs. SQLite wherever I
 
 **[sqliteq](https://github.com/balyakin/sqliteq)** — Job queues, pub/sub, and scheduled jobs inside a single SQLite file. No daemon, no Redis. Just a file. Rust.
 
+**[SteadySend](https://github.com/balyakin/steady-send)** — File transfer for the dull but painful case: one huge file, a flaky network, and a retry that shouldn't start from zero. If the link drops, run the same command again; it resumes from verified chunks. Go.
+
 **[snapback](https://github.com/balyakin/snapback)** — Incremental local backups for project folders. Per-file deduplication, SQLite index, and restore by date or file when you need to rewind without thinking about it. Python.
 
 **[tokmon](https://github.com/balyakin/tokmon)** — Proxy for tracking token usage and costs across Anthropic/OpenAI. If you run a lot of agents you'll want this before the invoice arrives. Go, SQLite.
