@@ -16,6 +16,8 @@ Most of what's here is Go, Rust, or TypeScript. A lot of CLIs. SQLite wherever I
 
 **[archlint](https://github.com/balyakin/archlint)** — Architecture drift starts as one harmless import. Define the layers in `archlint.yaml`; it checks Python, TypeScript, and JavaScript imports for boundary leaks, layer cycles, banned packages, and files that depend on too much. Deterministic CLI, no LLM. TypeScript.
 
+**[tessera](https://github.com/balyakin/tessera)** — Publishing CLI for manuscripts that still live in Word or LibreOffice. Keeps named styles as meaning, so poems, letters, epigraphs, and bits of foreign text don't get flattened into "some italics with indentation". Builds EPUB, LaTeX, and PDF from the same DOCX/ODT source. Go.
+
 **[llmfail](https://github.com/balyakin/llmfail)** — Local proxy that adds failover between LLM providers. Anthropic returning 429s? Falls through to OpenAI or wherever. Mostly just a routing layer, smaller than you'd expect. Go.
 
 **[smartproxy](https://github.com/balyakin/smartproxy)** — Local LLM proxy for the setup that starts with one API key and somehow grows into retry scripts, budget checks, and a cost spreadsheet. Point OpenAI-compatible clients at it and get routing, failover, SQLite telemetry, optional caching, and a terminal dashboard. Go.
