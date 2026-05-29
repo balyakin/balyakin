@@ -48,8 +48,3 @@ Most of what's here is Go, Rust, or TypeScript. A lot of CLIs. SQLite wherever I
 
 Go for most backend tooling. Rust when I want small binaries or need the performance. Python for scripting and quick prototypes. SQLite as default storage — you can get surprisingly far without running a server.
 
----
-
-## Elsewhere
-
-I also built [SkyMoment](https://skymoment.art) — generates personalized star map posters. Very different from everything else here, but it's mine.
