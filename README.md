@@ -24,6 +24,8 @@ Most of what's here is Go, Rust, or TypeScript. A lot of CLIs. SQLite wherever I
 
 **[codebone](https://github.com/balyakin/codebone)** — CLI and MCP server for giving agents compact code context. Extracts symbols, signatures, and structure with tree-sitter instead of dumping whole files. TypeScript.
 
+**[ragimg](https://github.com/balyakin/ragimg)** — RAG indexing for the parts of docs that live in images. Reads Markdown/HTML, skips badges and logos, captions useful diagrams/screenshots/charts once, and writes JSONL chunks for the embedding pipeline you already have. Go.
+
 **[skill-eval-runner](https://github.com/balyakin/skill-eval-runner)** — Test runner for `SKILL.md` files. Spins up a fresh workspace, lets an agent work, then checks what actually happened: files, commands, JSON, exit codes, tokens, and CI reports. Built because "the chat looked right" is not a regression test. TypeScript.
 
 **[sqliteq](https://github.com/balyakin/sqliteq)** — Job queues, pub/sub, and scheduled jobs inside a single SQLite file. No daemon, no Redis. Just a file. Rust.
