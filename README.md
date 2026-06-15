@@ -12,6 +12,8 @@ Most of what's here is Go, Rust, or TypeScript. A lot of CLIs. SQLite wherever I
 
 **[aishield](https://github.com/balyakin/aishield)** — Safety layer for AI coding agents: blocks dangerous shell commands, strips secrets before they reach the agent context, keeps a JSONL audit log. Started this after an agent deleted a directory I hadn't committed yet. Go.
 
+**[refraction](https://github.com/balyakin/refraction)** — Offline scanner for hostile repository and package text that can derail AI-assisted review: prompt injection, refusal bait, obfuscated payloads, Trojan Source, and manifest tricks. Go.
+
 **[dataminim](https://github.com/balyakin/dataminim)** — Offline scanner for the awkward database question: what PII and secrets are already in there? Reads PostgreSQL or SQLite metadata, samples bounded values, follows JSON paths, and writes console/JSON/HTML reports without exposing raw data. Go.
 
 **[pr-audit](https://github.com/balyakin/pr-audit)** — Local-first CLI for reviewing large diffs. Finds risky changes hiding in noisy PRs: weakened tests, unsafe code, type suppressions, and secret-like values. TypeScript.
