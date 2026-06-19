@@ -26,6 +26,8 @@ Most of what's here is Go, Rust, or TypeScript. A lot of CLIs. SQLite wherever I
 
 **[smartproxy](https://github.com/balyakin/smartproxy)** — Local LLM proxy for the setup that starts with one API key and somehow grows into retry scripts, budget checks, and a cost spreadsheet. Point OpenAI-compatible clients at it and get routing, failover, SQLite telemetry, optional caching, and a terminal dashboard. Go.
 
+**[querygate](https://github.com/balyakin/querygate)** — Go middleware and reverse proxy for the awkward HTTP case where a read needs a request body, but `POST` makes it look like a write. Speaks `QUERY`, advertises `Accept-Query`, caches safe body-aware responses, and can bridge older backends through `POST`. Go.
+
 **[codebone](https://github.com/balyakin/codebone)** — CLI and MCP server for giving agents compact code context. Extracts symbols, signatures, and structure with tree-sitter instead of dumping whole files. TypeScript.
 
 **[ragimg](https://github.com/balyakin/ragimg)** — RAG indexing for the parts of docs that live in images. Reads Markdown/HTML, skips badges and logos, captions useful diagrams/screenshots/charts once, and writes JSONL chunks for the embedding pipeline you already have. Go.
@@ -53,4 +55,3 @@ Most of what's here is Go, Rust, or TypeScript. A lot of CLIs. SQLite wherever I
 ## Stack
 
 Go for most backend tooling. Rust when I want small binaries or need the performance. Python for scripting and quick prototypes. SQLite as default storage — you can get surprisingly far without running a server.
-
