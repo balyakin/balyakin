@@ -22,6 +22,8 @@ Most of what's here is Go, Rust, or TypeScript. A lot of CLIs. SQLite wherever I
 
 **[tessera](https://github.com/balyakin/tessera)** — Publishing CLI for manuscripts that still live in Word or LibreOffice. Keeps named styles as meaning, so poems, letters, epigraphs, and bits of foreign text don't get flattened into "some italics with indentation". Builds EPUB, LaTeX, and PDF from the same DOCX/ODT source. Go.
 
+**[mergetyp](https://github.com/balyakin/mergetyp)** — Mail-merge for PDFs when the template deserves better than a pile of string replacements. Write the layout in Typst, feed it CSV, JSON, or YAML, and get one PDF per record: certificates, invoices, letters, whatever batch paperwork showed up this time. Python.
+
 **[llmfail](https://github.com/balyakin/llmfail)** — Local proxy that adds failover between LLM providers. Anthropic returning 429s? Falls through to OpenAI or wherever. Mostly just a routing layer, smaller than you'd expect. Go.
 
 **[smartproxy](https://github.com/balyakin/smartproxy)** — Local LLM proxy for the setup that starts with one API key and somehow grows into retry scripts, budget checks, and a cost spreadsheet. Point OpenAI-compatible clients at it and get routing, failover, SQLite telemetry, optional caching, and a terminal dashboard. Go.
