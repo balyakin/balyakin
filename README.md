@@ -18,6 +18,8 @@ Most of what's here is Go, Rust, or TypeScript. A lot of CLIs. SQLite wherever I
 
 **[incident-ci](https://github.com/balyakin/incident-ci)** — CI check for incident PRs, because "please fill out the incident notes" should not live in someone's memory. Keeps the Incident Card as Markdown in the repo, validates the YAML, and points GitHub annotations at the file reviewers are already approving. Python.
 
+**[PgRelay](https://github.com/balyakin/pgrelay)** — Transactional outbox and background jobs for Python services already sitting on PostgreSQL. Enqueue work in the same SQLAlchemy transaction as the thing that caused it, then let a small asyncio worker handle retries, leases, dead-letter jobs, and replay. For when a webhook in the request is too flimsy, but adding a separate queue feels like punishment. Python.
+
 **[refraction](https://github.com/balyakin/refraction)** — Offline scanner for hostile repository and package text that can derail AI-assisted review: prompt injection, refusal bait, obfuscated payloads, Trojan Source, and manifest tricks. Go.
 
 **[dataminim](https://github.com/balyakin/dataminim)** — Offline scanner for the awkward database question: what PII and secrets are already in there? Reads PostgreSQL or SQLite metadata, samples bounded values, follows JSON paths, and writes console/JSON/HTML reports without exposing raw data. Go.
